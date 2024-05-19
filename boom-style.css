@@ -4,22 +4,22 @@ h1 {
     text-decoration: underline; 
     font-family: 'Tilt Neon', sans-serif; 
     padding: 10px; 
-    background-color: rgba(245, 117, 187, 0.5); /* 0.5 of last one means opacity 50%*/
-    border-radius: 10px; /* Rounds the corners of the box */
+    background-color: rgba(245, 117, 187, 0.5);
+    border-radius: 10px; 
     box-shadow: 
-        0 0 20px rgba(245, 117, 187, 0.8), /* Adds a pink glowing effect to the box */
-        0 0 40px rgba(245, 117, 187, 0.6), /* Increase the blur radius for a stronger glow effect */
-        0 0 60px rgba(245, 117, 187, 0.4); /* Further increase the blur radius for a stronger glow effect */
-    position: fixed; /* Position the box fixed to the viewport */
-    top: 0; /* Position the box at the top of the viewport */
-    left: 50%; /* Center the box horizontally */
-    transform: translateX(-50%); /* Adjust position to horizontally center the box */
-    width: fit-content; /* Set the width of the box to fit its content */
-    z-index: 999; /* Ensure the heading appears on top of other content */
+        0 0 20px rgba(245, 117, 187, 0.8), 
+        0 0 40px rgba(245, 117, 187, 0.6), 
+        0 0 60px rgba(245, 117, 187, 0.4); 
+    position: fixed; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: fit-content; 
+    z-index: 999; 
 }
 
 .spacer {
-    height: 300px; /* Adjust the height as needed for desired spacing */
+    height: 300px; 
 }
 
 html {
@@ -29,8 +29,8 @@ html {
 }
 
 body {
-    margin: 0; /* Reset default margin */
-    padding: 0; /* Reset default padding */
+    margin: 0; 
+    padding: 0; 
     height: 100%;
     text-align: center; 
 }
@@ -42,7 +42,7 @@ h2 {
 
 .tilty-button {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 10px 20px; 
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #f575bb;
@@ -54,11 +54,11 @@ h2 {
 }
 
 .tilty-button:nth-child(2) {
-    transform: rotate(-10deg); /* Apply a tilt angle of -10 degrees to the second button */
+    transform: rotate(-10deg); 
 }
 
 .tilty-button:nth-child(3) {
-    transform: rotate(5deg); /* Apply a tilt angle of 5 degrees to the third button */
+    transform: rotate(5deg); 
 }
 
 .tilty-button:hover {
