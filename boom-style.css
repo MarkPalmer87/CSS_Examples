@@ -1,0 +1,66 @@
+h1 {
+    color: #f575bb; 
+    text-align: center; 
+    text-decoration: underline; 
+    font-family: 'Tilt Neon', sans-serif; 
+    padding: 10px; 
+    background-color: rgba(245, 117, 187, 0.5); /* 0.5 of last one means opacity 50%*/
+    border-radius: 10px; /* Rounds the corners of the box */
+    box-shadow: 
+        0 0 20px rgba(245, 117, 187, 0.8), /* Adds a pink glowing effect to the box */
+        0 0 40px rgba(245, 117, 187, 0.6), /* Increase the blur radius for a stronger glow effect */
+        0 0 60px rgba(245, 117, 187, 0.4); /* Further increase the blur radius for a stronger glow effect */
+    position: fixed; /* Position the box fixed to the viewport */
+    top: 0; /* Position the box at the top of the viewport */
+    left: 50%; /* Center the box horizontally */
+    transform: translateX(-50%); /* Adjust position to horizontally center the box */
+    width: fit-content; /* Set the width of the box to fit its content */
+    z-index: 999; /* Ensure the heading appears on top of other content */
+}
+
+.spacer {
+    height: 300px; /* Adjust the height as needed for desired spacing */
+}
+
+html {
+    background: #D0E4F5 url("https://raw.githubusercontent.com/MarkPalmer87/Images/main/Anothjer_Space_smaller.jpg") no-repeat fixed center center; 
+    background-size: cover;
+    height: 100%; 
+}
+
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    height: 100%;
+    text-align: center; 
+}
+
+h2 {
+    text-align: center; 
+    color: #f575bb; 
+}
+
+.tilty-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f575bb;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center; 
+    margin: 10px;
+    transform: rotate(20deg);
+}
+
+.tilty-button:nth-child(2) {
+    transform: rotate(-10deg); /* Apply a tilt angle of -10 degrees to the second button */
+}
+
+.tilty-button:nth-child(3) {
+    transform: rotate(5deg); /* Apply a tilt angle of 5 degrees to the third button */
+}
+
+.tilty-button:hover {
+    background-color: #00ff00;
+}

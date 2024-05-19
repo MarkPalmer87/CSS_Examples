@@ -1,0 +1,63 @@
+/* Apply styles to the h1 element */
+h1 {
+    color: #f575bb; /* Set text color to pink */
+    text-align: center; /* Center align the text horizontally */
+    text-decoration: underline; /* Underline the text */
+    font-family: 'Tilt Neon', sans-serif; /* Use 'Tilt Neon' font if available, fallback to sans-serif */
+    padding: 10px; /* Add padding around the text */
+    background-color: rgba(245, 117, 187, 0.5); /* Set a semi-transparent pink background */
+    border-radius: 10px; /* Round the corners of the box */
+    box-shadow: 
+        0 0 20px rgba(245, 117, 187, 0.8), /* Add a pink glowing effect to the box */
+        0 0 40px rgba(245, 117, 187, 0.6), /* Increase the blur radius for a stronger glow effect */
+        0 0 60px rgba(245, 117, 187, 0.4); /* Further increase the blur radius for a stronger glow effect */
+    position: fixed; /* Position the box fixed to the viewport */
+    top: 0; /* Position the box at the top of the viewport */
+    left: 50%; /* Center the box horizontally */
+    transform: translateX(-50%); /* Adjust position to horizontally center the box */
+    width: fit-content; /* Set the width of the box to fit its content */
+    z-index: 999; /* Ensure the heading appears on top of other content */
+}
+
+/* Apply styles to the spacer div */
+.spacer {
+    height: 300px; /* Adjust the height as needed for desired spacing */
+}
+
+/* Apply styles to the html element */
+html {
+    background: #D0E4F5 url("https://raw.githubusercontent.com/MarkPalmer87/Images/main/Anothjer_Space_smaller.jpg") no-repeat fixed center center; /* Set background image */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    height: 100%; /* Ensure html element takes up full height of viewport */
+}
+
+/* Apply styles to the body element */
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    height: 100%; /* Ensure body takes up full height of viewport */
+    text-align: center;
+}
+
+/* Apply styles to the h2 element */
+h2 {
+    text-align: center; /* Center align the text horizontally */
+    color: #f575bb; /* Set text color to pink */
+}
+
+.tilty-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f575bb;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    text-align: center; /* Center the text horizontally */
+    margin: 10px; /* Add margin for spacing between buttons */
+}
+
+.tilty-button:hover {
+    background-color: #00ff00;
+}
+
